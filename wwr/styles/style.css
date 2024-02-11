@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Satisfy&display=swap');
+:root {
+    --heading-font: Satisfy;
+    --paragraph-font: Oswald, Helvetica, sans-serif;
+  }
+  
 div {
     max-width: 1600px; 
     margin: 0 auto;
@@ -15,6 +21,9 @@ nav a {
 } 
 nav a:hover {
     background-color: #fcfbfb;
+}
+main section img {
+    box-sizing: border-box;
 }
 #hero-msg h1 {
     text-align: center;
@@ -37,6 +46,9 @@ main section {
 }
 body {
     background-color:#044b04  ; 
+    font-family: var(--heading-font);
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color:#87a96b;
@@ -44,9 +56,11 @@ header {
 
 .book {
     background-color:#fcfbfb  ;
+    font-family: var(--paragraph-font);
 }
 .join {
     background-color:#fcfbfb ;
+    font-family: var(--paragraph-font);
 }
 .book:hover {
     background-color:#fcfbfb ;
@@ -59,6 +73,7 @@ header {
 }
 .msg {
     background-color: #b6daf1  ;
+    line-height: 1.5em;
 }
 footer {
     background-color: #b6daf1 ;
@@ -68,11 +83,13 @@ footer {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     background-color:#87a96b ;
     color:#fcfbfb ;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color:#65491a ;
@@ -82,6 +99,12 @@ nav a:hover{
 .home-title {
     background-color:#b6daf1  ;
     color: black ;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
 }
 h4{
     background-color:#b6daf1  ;
@@ -91,11 +114,19 @@ h4{
     background-color:#87a96b  ;
     color: black ;
     text-decoration: none ;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
  .join {
     background-color:#fddd87  ;
     color: black ;
     text-decoration:none ;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #87a96b  ;
@@ -105,22 +136,32 @@ h4{
     background-color: #fcfbfb  ;
     color: black ;
 }
+.msg{
+    padding: 35px;
+}
 .msg h2 {
     background-color:#fddd87  ;
     color: black  ;
+    font-family: var(--heading-font);
 }
 .msg p {
     background-color:#fddd87 ;
     color: black  ;
+    font-family: var(--paragraph-font); 
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#fddd87  ;
     color:black ;
+    padding: 25px 50px;
+    padding-top: 15px;
 }
 footer a {
     background-color:#fddd87 ;
     color:black ;
     text-decoration:none ;
+    margin-top: 200px;
 }
 footer a:hover {
     background-color:#fcfbfb ;
@@ -129,4 +170,23 @@ footer a:hover {
 footer p a:hover {
     font-size: 1.2em;
     text-decoration: underline;
+}
+.social img{
+    padding-top: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px 0;
+} 
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+} 
+.card-img {
+    border: 10px solid black;
 }

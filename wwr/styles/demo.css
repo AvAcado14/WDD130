@@ -1,11 +1,25 @@
-p{
-    background-color: aquamarine;
-    border: 10px solid red;
-    padding: 100px;
-    margin: 100px;
-    width: 500px;
-
+body{
+    background-color: grey;
 }
-img {
-    display: block;
+.div{
+    text-align: center;
+}
+.desk{
+    border: 20px solid black;
+    border-radius: 50%;
+    color: grey;
+    width: 20%;
+    
+}
+.graphic{
+    border: 20px solid black;
+    border-radius: 50%;
+    color: grey;
+    width: 20%;
+}
+.think{
+    border: 20px solid black;
+    border-radius: 50%;
+    color: grey;
+    width: 20%;
 }
