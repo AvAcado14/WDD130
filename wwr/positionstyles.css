@@ -133,7 +133,6 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
-  float: ;
 }
 .red5 { 
   width: 100%; 
@@ -162,7 +161,6 @@
   display: grid;
   grid-template-columns:50px 50px 50px 50px 50px 50px;
   grid-template-rows:50px 50px 50px 50px 50px 50px ;
-  z-index: 
 }
 .red6 {
   width: 200px; 
