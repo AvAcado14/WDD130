@@ -1,48 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&family=Satisfy&display=swap')
+
 :root {
-    --heading-font: Satisfy;
-    --paragraph-font: Oswald, Helvetica, sans-serif;
+    --heading-font: Satisfy; "Protest Riot", sans-serif
+    --paragraph-font: Oswald, Merriweather, sans-serif;
   }
   
 div {
     max-width: 1600px; 
     margin: 0 auto;
-    background-color:#b6daf1 ;
-    
-}
-#content {
-    margin: 0 auto;
-}
-nav a {
-    text-align: center;
-     background-color:#87a96b ;
-    color:#fcfbfb ;
-    text-decoration: none;
-} 
-nav a:hover {
-    background-color: #fcfbfb;
-}
-main section img {
-    box-sizing: border-box;
-}
-#hero-msg h1 {
-    text-align: center;
-}
-#hero-msg h4 {
-    text-align: center;
-}
-#hero-img{
-    width: 100%;
-}
-
-.button-box{
-    text-align: center;
-} 
-main section {
-    text-align: center;
-}
-#background {
-    height: 725px;
+    background-color:#b6daf1 ;  
 }
 body {
     background-color:#044b04  ; 
@@ -53,34 +19,58 @@ body {
 header {
     background-color:#87a96b;
 }
+.logo {
+    width: 80px ;
+}
+nav a {
+    text-align: center;
+     background-color:#87a96b ;
+    color:#fcfbfb ;
+    text-decoration: none;
+} 
+nav a:hover {
+    background-color: #fcfbfb;
+}
+#content {
+    margin: 0 auto;
+}
+main section img {
+    box-sizing: border-box;
+}
 
-.book {
-    background-color:#fcfbfb  ;
-    font-family: var(--paragraph-font);
+#hero-msg h1 {
+    text-align: center;
 }
-.join {
-    background-color:#fcfbfb ;
-    font-family: var(--paragraph-font);
+
+#hero-msg h4 {
+    text-align: center;
 }
-.book:hover {
-    background-color:#fcfbfb ;
+
+#hero-img{
+    width: 100%;
 }
-.join :hover {
-    background-color:#fcfbfb ;
+
+.button-box{
+    text-align: center;
+} 
+
+main section {
+    text-align: center;
 }
+
+#background {
+    height: 725px;
+}
+
 #background {
     background-color: #87a96b ;
 }
+
 .msg {
     background-color: #b6daf1  ;
     line-height: 1.5em;
 }
-footer {
-    background-color: #b6daf1 ;
-}
-.logo {
-    width: 80px ;
-}
+
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -110,6 +100,7 @@ h4{
     background-color:#b6daf1  ;
     color: black ;
 }
+
 .book {
     background-color:#87a96b  ;
     color: black ;
@@ -118,6 +109,11 @@ h4{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-family: var(--paragraph-font);
+}
+.book:hover {
+    background-color: #87a96b  ;
+    color: black ;
 }
  .join {
     background-color:#fddd87  ;
@@ -127,10 +123,7 @@ h4{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-}
-.book:hover {
-    background-color: #87a96b  ;
-    color: black ;
+    font-family: var(--paragraph-font);
 }
  .join:hover {
     background-color: #fcfbfb  ;
@@ -150,6 +143,9 @@ h4{
     font-family: var(--paragraph-font); 
     font-size: .8em;
     padding-bottom: 15px;
+}
+footer {
+    background-color: #b6daf1 ;
 }
 footer {
     background-color:#fddd87  ;
