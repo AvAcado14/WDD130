@@ -18,12 +18,12 @@ Fonts are separated by a | */
   --headline-color-on-white: #dca7b8 ;  /* headlines on a white background */ 
   --headline-color-on-color: #fbf5f3; /* headlines on a colored background */ 
   --paragraph-color-on-white: #5a5e72  ; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #396E94; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #fbf5f3; /* paragraph text on a colored background */ 
   --paragraph-background-color: #dca7b8   ;
-  --nav-link-color: #396E94;
+  --nav-link-color: #fbf5f3 ;
   --nav-background-color: #dca7b8 ;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color:#396E94  ;
 }
 
 
@@ -175,6 +175,10 @@ nav a:hover {
 }
 
 .pageframe {
+  width: 50%;
+  height: 50%;
+}
+.dd {
   width: 100%;
   height: 100%;
 }
