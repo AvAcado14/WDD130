@@ -182,24 +182,96 @@ ul{
     padding: 15px;
 }
 
-.brunch-grid{
+.break-grid{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
 }
 
-.yog{
+.yog-img{
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
-.yog1{
-    grid-column-start: 2;
+.yog{
+    grid-column: 2/3;
     grid-row: 1/2;
 }
 
+.egg{
+    grid-column: 1/2 ;
+    grid-row: 2/3;
+}
 
+.egg-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 
+.lunch-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.tost-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.tost{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.sand{
+    grid-column: 1/2 ;
+    grid-row: 2/3;
+}
+
+.sand-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.dinner-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.sweet-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.sweet{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.stack{
+    grid-column: 1/2 ;
+    grid-row: 2/3;
+}
+
+.stack-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.bread-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.bread-img{
+    grid-column: 1/2;
+}
+
+.bread{
+    grid-column: 2/3;
+}
 
 
 
