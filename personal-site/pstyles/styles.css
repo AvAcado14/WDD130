@@ -19,13 +19,10 @@ body {
     font-family: var(--heading-font);
 }
 
-div {
-    max-width: 1600px; 
-    margin: 0 auto;  
-}
-
 #content {
-    margin: 0 auto;
+    max-width: 1600px;
+    margin: 0 auto; 
+    padding: 0 1em;
 }
 
 header {
@@ -99,19 +96,16 @@ nav a:hover {
 .breakfast-card{
     margin: 100px 0;
     grid-column: 2/4 ;
-    grid-row: 2/3 ;
 } 
 
 .lunch-card{
     margin: 100px 0;
     grid-column: 5/7 ;
-    grid-row: 2/3 ;
 }
 
 .dinner-card{
     margin: 100px 0;
     grid-column: 8/10 ;
-    grid-row: 2/3 ;
 } 
 
 .icon {
@@ -198,9 +192,9 @@ ol{
     text-align: left;
 }
 
-.tips{
-    text-align: left;
-    margin: 15px;
+#tips{
+    grid-column: 1/11;
+    padding: 1em;
 }
 
 .break-grid{
