@@ -131,7 +131,7 @@ main section {
 .grocery-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:1em;
+    gap: 1em;
     grid-column:1/11 ;
     padding: 1em;
 }
@@ -159,12 +159,13 @@ main section {
     font-family: var(--heading-font);
     text-align: left;
     text-decoration-line: underline;
+    padding-bottom: 10px;
 }
 
 .msg p { 
     color: var(--secondary-color) ;
     font-family: var(--paragraph-font); 
-    font-size: .8em;
+    font-size: 10px;
     padding-bottom: 15px;
 }
 
