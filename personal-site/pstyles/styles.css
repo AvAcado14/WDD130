@@ -185,11 +185,21 @@ main section {
 ul{
     list-style-position:inside;
     text-align: left;
+    font-size: 20px;
 }
 
 ol{
     list-style-position:inside;
     text-align: left;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 #tips{
@@ -201,7 +211,7 @@ ol{
 .break-grid{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    gap: 40px;
 }
 
 .yog-img{
@@ -212,11 +222,13 @@ ol{
 .yog{
     grid-column: 2/3;
     grid-row: 1/2;
+    padding: 20px;
 }
 
 .egg{
     grid-column: 1/2 ;
     grid-row: 2/3;
+    padding: 20px;
 }
 
 .egg-img{
@@ -227,7 +239,7 @@ ol{
 .lunch-grid{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    gap: 40px;
 }
 
 .tost-img{
@@ -238,11 +250,13 @@ ol{
 .tost{
     grid-column: 2/3;
     grid-row: 1/2;
+    padding: 20px;
 }
 
 .sand{
     grid-column: 1/2 ;
     grid-row: 2/3;
+    padding: 20px;
 }
 
 .sand-img{
@@ -253,7 +267,7 @@ ol{
 .dinner-grid{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    gap: 40px;
 }
 
 .sweet-img{
@@ -264,11 +278,13 @@ ol{
 .sweet{
     grid-column: 2/3;
     grid-row: 1/2;
+    padding: 20px;
 }
 
 .stack{
     grid-column: 1/2 ;
     grid-row: 2/3;
+    padding: 20px;
 }
 
 .stack-img{
@@ -287,6 +303,7 @@ ol{
 
 .bread{
     grid-column: 2/3;
+    padding: 20px;
 }
 
 footer {
