@@ -299,8 +299,8 @@ footer {
 }
 
 footer a {
-    background-color: var(--secondary-color) ;
-    color: var(--accent1-color) ;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
     text-decoration:none ;
     margin-top: 100px;
 }
