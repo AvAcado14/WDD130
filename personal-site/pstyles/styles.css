@@ -25,6 +25,10 @@ body {
     padding: 0 1em;
 }
 
+img{
+    max-width: 100%;
+}
+
 header {
     background-color: var(--primary-color);
     display: grid;
